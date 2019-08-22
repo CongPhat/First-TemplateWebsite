@@ -1,0 +1,39 @@
+$colorMain: #00a99d;
+$colorFirst: #383838;
+$colorSecond: #8a8a8a;
+
+@mixin transition($time) {
+	-webkit-transition: $time;
+	-moz-transition: $time;
+	-o-transition: $time;
+	-ms-transition: $time;
+	transition: $time;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+ 	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
